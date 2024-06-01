@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  background-color: #333;
+  height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.problem-list {
+  padding: 0;
+  align-items: center;
+}
+
+.problem {
+  left: 24%;
+  position: relative;
+  width:50%;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px; /* Add margin to create vertical spacing */
+}
+
+.problem-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.problem-description {
+  color: #ccc;
+}
+
+.loading-message {
+  color: #ccc;
+  font-style: italic;
+  text-align: center;
+}

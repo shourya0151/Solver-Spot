@@ -1,0 +1,54 @@
+.compiler-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+  }
+
+.buttons{
+  position: relative;
+  left: 70%;
+  display: flex;
+}
+.run{
+  background-color: red;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.submit{
+  background-color: green;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.compiler-output{
+  height: 50%;
+  background-color: white;
+}
+
+.greenColor{
+  color: rgb(6, 248, 6);
+}
+
+.redColor{
+  color: rgb(239, 9, 9);
+}
+
+.codeArea{
+  background-color: grey;
+  margin-left: 5px;
+}
+
+.redText{
+  color:rgb(243, 26, 26);
+}

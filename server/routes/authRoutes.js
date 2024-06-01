@@ -1,0 +1,15 @@
+import express from "express";
+
+import {signin , signup} from "../controllers/authController.js"
+
+const router = express.Router();
+
+//making url extended to signin then signin page will open
+router.post("/signin" , signin);
+
+router.post("/signup" , signup);
+
+
+//
+
+export default router;
